@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+       
       
       # 3. Instala as dependencias
       # (Usar 'npm ci' e mais rapido e seguro para CI)
